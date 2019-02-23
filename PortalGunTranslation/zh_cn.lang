@@ -1,0 +1,70 @@
+item.portalgun.item.dustEnderPearl.name=末影之尘
+item.portalgun.item.miniatureBlackHole.name=小型黑洞
+item.portalgun.item.portalgun.name=传送枪
+
+block.portalgun.block.portal.name=传送方块
+
+portalgun.info.global=全局传送枪
+portalgun.info.owner=%s 的传送枪
+portalgun.info.channel=频道： %s
+portalgun.info.size=尺寸： %1$s x %2$s
+portalgun.info.grabStrength0=抓取强度： 错误的
+portalgun.info.grabStrength1=抓取强度： 小型生物
+portalgun.info.grabStrength2=抓取强度： 方块 + 生物
+portalgun.info.grabStrength3=抓取强度： 方块实体 + 大的实体
+portalgun.info.grabStrength4=抓取强度： 方块实体 + 非常大的实体
+portalgun.info.newPortalGun=新制作的传送枪
+
+portalgun.config.cat.portalgun.name=传送枪设置
+
+portalgun.config.cat.portalgun.comment=与传送枪使用的设置选项
+
+portalgun.config.prop.portalgunIndicatorSize.name=传送枪指示器尺寸
+portalgun.config.prop.seeThroughPortals.name=可穿透传送门看
+portalgun.config.prop.fancyPortals.name=怪想的门
+
+portalgun.config.prop.keyGrab.name=抓取按键
+portalgun.config.prop.keyReset.name=重置传送门键
+portalgun.config.prop.keyZoom.name=放大键
+
+portalgun.config.prop.equipItemSound.name=启用传送枪装备声音
+
+portalgun.config.prop.entityGrabWeightBase.name=实体抓取基本重量
+portalgun.config.prop.maxShootDistance.name=最大传送枪射线射击距离
+portalgun.config.prop.canFireThroughGlass.name=传送枪射线可以通过草
+portalgun.config.prop.canFireThroughLiquid.name=传送枪射线可以通过液体
+portalgun.config.prop.canPortalsResizeWhenCreated.name=传送门能在创建时调整尺寸
+portalgun.config.prop.canPortalProjectilesChunkload.name=传送枪射线能加载区块
+
+portalgun.config.prop.portalgunIndicatorSize.comment=当拿着传送枪时十字准星周围指示器尺寸。\n值是百分比。\n用0来禁用。
+portalgun.config.prop.seeThroughPortals.comment=是否启用显示来能穿过传送门看？\n\n如果你的电脑不支持此功能，即使启用，你也将不能透过传送门看。
+portalgun.config.prop.fancyPortals.comment=是否启用着色器渲染传送门？\n\n如果你的电脑不支持此功能，即使启用，也不会使用着色器。
+
+portalgun.config.prop.keyGrab.comment=用传送枪抓取方块/实体的按键
+portalgun.config.prop.keyReset.comment=重置你的传送枪发射的传送门的按键
+portalgun.config.prop.keyZoom.comment=传送枪放大和缩小视野的按键
+
+portalgun.config.prop.equipItemSound.comment=当传送枪装备时播放声音？
+
+portalgun.config.prop.entityGrabWeightBase.comment=设置传送枪允许抓取的基本重量百分比（%）\n设置此为0来禁用抓取不属于此模组的方块和实体。
+portalgun.config.prop.maxShootDistance.comment=传送枪发射的最远距离。
+portalgun.config.prop.canFireThroughGlass.comment=是否能让传送枪射线穿过草？
+portalgun.config.prop.canFireThroughLiquid.comment=是否能让传送枪射线穿过液体？
+portalgun.config.prop.canPortalsResizeWhenCreated.comment=如果传送枪射线生成的传送门的总大小不合适，是否能让它向下调整大小？
+portalgun.config.prop.canPortalProjectilesChunkload.comment=是否能让传送枪射线加载区块？\n禁用此项可能会造成问题。
+
+entity.EntityPortalProjectile.name=传送射线
+
+subtitles.portalgun.portal.portalenter=进入传送门
+subtitles.portalgun.portal.portalexit=退出传送门
+subtitles.portalgun.portal.portalfizzle=传送门关闭
+subtitles.portalgun.portal.portalinvalid=传送门放置失败
+subtitles.portalgun.portal.portalopen=传送门打开
+subtitles.portalgun.portalgun.usefail=传送枪无法抓取
+subtitles.portalgun.portalgun.useloop=传送枪发出嗡嗡声
+subtitles.portalgun.portalgun.usestart=传送枪抓取
+subtitles.portalgun.portalgun.usestop=传送枪释放
+subtitles.portalgun.portalgun.invalidsurface=传送枪放置失败
+subtitles.portalgun.portalgun.reset=传送枪重置
+subtitles.portalgun.portalgun.fire=传送枪发射
+subtitles.portalgun.portalgun.equip=装备传送枪
